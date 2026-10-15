@@ -1,8 +1,101 @@
-<https://htmlpreview.github.io/? add before html>
-</https:>
-welcome to my website
-<a href="home.html">home</a>
-<a href="contacts.html">contacts</a>
-<a href="skills.html">skills</a>
-<a href="problem-solving.html">problem-solving</a>
-<a href="showcase.html">showcase</a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        /* Main page design */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        /* Welcome heading */
+        h1 {
+            font-size: 42px;
+            margin-top: 0;
+            padding-top: 100px;
+            color: #00d4ff;
+            letter-spacing: 2px;
+        }
+
+        /* Introduction text */
+        p {
+            font-size: 18px;
+            color: #dbeafe;
+            margin-bottom: 40px;
+        }
+
+        /* Navigation menu */
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #0077b6;
+            padding: 14px 24px;
+            margin: 8px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        /* Hover effect */
+        nav a:hover {
+            background-color: #00d4ff;
+            color: #141e30;
+            transform: translateY(-4px);
+        }
+
+        /* Content panel */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px 20px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 80px;
+            padding: 20px;
+            color: #b0c4de;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+
+        <p>Explore my skills, projects and problem-solving journey.</p>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="skills.html">Skills</a>
+            <a href="problem-solving.html">Problem-Solving</a>
+            <a href="showcase.html">Showcase</a>
+        </nav>
+    </div>
+
+    <footer>
+        <p>Thank you for visiting my website!</p>
+    </footer>
+
+</body>
+</html>
+
