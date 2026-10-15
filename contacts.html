@@ -1,9 +1,200 @@
-<html>
-    <head>
-        <title>contacts</title>
-    </head>
-    <body>
-        <h1>Contacts</h1>
-        <p>This is a simple contacts page.</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammed Husnain| Professional Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        .profile-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 18px;
+            background: #d1fae5;
+            color: #065f46;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        header h1 {
+            font-size: 2.3rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 22px;
+            border-radius: 14px;
+            box-shadow: 0 5px 20px rgba(15, 23, 42, 0.06);
+        }
+
+        h2 {
+            color: #0f172a;
+            margin-bottom: 18px;
+        }
+
+        .profile-link {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 17px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .profile-link:last-child {
+            border-bottom: none;
+        }
+
+        .icon {
+            font-size: 25px;
+            width: 35px;
+            text-align: center;
+        }
+
+        .profile-link a {
+            color: #0369a1;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .profile-link a:hover {
+            color: #0f766e;
+            text-decoration: underline;
+        }
+
+        .description {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="profile-icon">MH</div>
+        <h1>Muhammed Husnain</h1>
+        <p>Aspiring Professional | Digital Skills</p>
+        <p>Building connections and professional opportunities.</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my professional profile. I am interested in
+                developing my skills, learning new technologies, and
+                connecting with other professionals.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact Information</h2>
+
+            <div class="profile-link">
+                <span class="icon">✉</span>
+                <div>
+                    <a href="mailto:alex.morgan@example.com">
+                        Email Me
+                    </a>
+                    <p class="description">
+                        <muhammed class="husnain"></muhammed>@example.com
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Professional Profiles</h2>
+
+            <div class="profile-link">
+                <span class="icon">in</span>
+                <div>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        LinkedIn Profile
+                    </a>
+                    <p class="description">
+                        Professional networking and career development
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile-link">
+                <span class="icon">⌘</span>
+                <div>
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        GitHub Profile
+                    </a>
+                    <p class="description">
+                        Projects, coding, and technical skills
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muhammed Husnain. Professional Portfolio.</p>
+    </footer>
+
+</body>
 </html>
