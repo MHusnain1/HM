@@ -1,9 +1,861 @@
-<html>
-    <head>
-        <title>Problem Solving</title>
-    </head>
-    <body>
-        <h1>Problem Solving</h1>
-        <p>This is a simple problem-solving page.</p>
-    </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sizzle & Sear | Problem Solving</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body class="problem-page">
+
+  <!-- PORTFOLIO NAVIGATION -->
+<header class="site-header" id="home">
+
+    <nav class="navbar">
+
+        <a class="brand" href="index.html">
+            <span class="mh-logo">MH</span>
+            <span>Muhammed Husnain</span>
+        </a>
+
+        <ul class="nav-links">
+
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+
+            <li>
+                <a href="skills.html">Skills</a>
+            </li>
+
+            <li>
+                <a href="business-showcase.html">Business Showcase</a>
+            </li>
+
+            <li>
+                <a href="problem-solving.html">Problem-Solving</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+  <main>
+
+   
+<!-- SIZZLE & SEAR ANIMATED HERO -->
+<section class="restaurant-hero"
+         aria-label="Sizzle and Sear restaurant">
+
+  <!-- Sizzle & Sear Two-Slide Carousel -->
+<div class="ss-carousel">
+
+    <!-- SLIDE 1: Original Animated GIF -->
+    <div class="ss-slide ss-slide-active">
+        <img
+            src="Animated Sizzle & Sear Steakhouse Banner.gif"
+            alt="Sizzle & Sear Restaurant Animation"
+            class="ss-carousel-image"
+        >
+    </div>
+
+    <!-- SLIDE 2: Weekend Promotion -->
+    <div class="ss-slide ss-promo-slide">
+
+        <div class="ss-promo-glow"></div>
+        <div class="ss-promo-glow ss-promo-glow-two"></div>
+
+        <div class="ss-promo-content">
+
+       
+            <p class="ss-promo-eyebrow">THE WEEKEND SPECIAL</p>
+
+            <h2 class="ss-promo-discount">20% OFF</h2>
+
+            <h3 class="ss-promo-heading">
+                STEAKS <span>&</span> SIZZLERS
+            </h3>
+
+            <p class="ss-promo-description">
+                Make your weekends extra delicious.
+            </p>
+
+            <div class="ss-promo-weekend">
+                EVERY SATURDAY & SUNDAY
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button
+        class="ss-carousel-arrow ss-carousel-prev"
+        type="button"
+        aria-label="Previous slide"
+    >
+        &#10094;
+    </button>
+
+    <button
+        class="ss-carousel-arrow ss-carousel-next"
+        type="button"
+        aria-label="Next slide"
+    >
+        &#10095;
+    </button>
+
+</div>
+   
+
+
+  <!-- Clickable links over the buttons in the animation -->
+  <a href="#reservation"
+     class="restaurant-hero-hotspot restaurant-booking-hotspot"
+     aria-label="Book Reservation"></a>
+
+  <a href="#menu"
+     class="restaurant-hero-hotspot restaurant-menu-hotspot"
+     aria-label="Open Menu"></a>
+
+</section>
+
+
+    <!-- BUSINESS CONTEXT -->
+    <section id="business-context" class="restaurant-section">
+      <div class="restaurant-container">
+
+        <div class="restaurant-section-heading">
+          <span class="restaurant-eyebrow">DIGITAL TRANSFORMATION</span>
+          <h2>Business Context</h2>
+        </div>
+
+        <div class="restaurant-intro">
+          <h3>My Role: Chief Technology Officer (CTO)</h3>
+
+          <p>
+            As Chief Technology Officer, my mission is to lead the
+            digital transformation of Sizzle &amp; Sear by developing
+            a proposed web solution that improves customer engagement,
+            enhances operational efficiency and delivers a better
+            customer experience.
+          </p>
+
+          <p>
+            The goal is to provide customers with a user-friendly
+            website featuring online menus, reservation bookings
+            and customer feedback functionality.
+          </p>
+        </div>
+
+        <div class="restaurant-context-block">
+          <h3>Problem Context</h3>
+
+          <p>
+            Many restaurants face challenges keeping up with
+            technological advancements and continue to rely on
+            traditional methods of operation.
+          </p>
+
+          <p>
+            However, customers increasingly prefer convenient
+            digital services, such as viewing restaurant menus
+            online and making reservations before visiting.
+            Without these features, restaurants may struggle
+            to meet changing customer expectations and
+            remain competitive.
+          </p>
+        </div>
+
+        <div class="restaurant-context-block">
+          <h3>Proposed Solution</h3>
+
+          <div class="restaurant-solutions">
+
+            <article class="restaurant-solution-card">
+              <span class="restaurant-card-number">01</span>
+              <h4>Online Menu</h4>
+              <p>
+                Allow customers to browse available dishes,
+                descriptions and prices before visiting.
+              </p>
+            </article>
+
+            <article class="restaurant-solution-card">
+              <span class="restaurant-card-number">02</span>
+              <h4>Online Booking Reservation System</h4>
+              <p>
+                Enable customers to submit reservation requests
+                through a convenient online form.
+              </p>
+            </article>
+
+            <article class="restaurant-solution-card">
+              <span class="restaurant-card-number">03</span>
+              <h4>Customer Feedback</h4>
+              <p>
+                Provide customers with an accessible way to
+                share dining experiences, suggestions and feedback.
+              </p>
+            </article>
+
+            <article class="restaurant-solution-card">
+              <span class="restaurant-card-number">04</span>
+              <h4>User-Friendly &amp; Accessible Design</h4>
+              <p>
+                Create a clear, responsive website that is easy
+                to navigate on desktop, tablet and mobile devices.
+              </p>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESTAURANT MENU -->
+   
+<!-- INTERACTIVE RESTAURANT MENU -->
+<section id="menu" class="restaurant-section restaurant-menu-section">
+  <div class="restaurant-container">
+
+    <div class="restaurant-section-heading">
+      <span class="restaurant-eyebrow">EXPLORE OUR FOOD</span>
+      <h2>Restaurant Menu</h2>
+      <p>Discover what's cooking at Sizzle &amp; Sear.</p>
+    </div>
+
+    <!-- CATEGORY BUTTONS -->
+    <div class="restaurant-menu-tabs" role="group"
+         aria-label="Choose a menu category">
+
+      <button type="button" class="restaurant-menu-tab active"
+              data-menu="appetisers" aria-pressed="true">
+        Appetisers
+      </button>
+
+      <button type="button" class="restaurant-menu-tab"
+              data-menu="steaks" aria-pressed="false">
+        Steaks
+      </button>
+
+      <button type="button" class="restaurant-menu-tab"
+              data-menu="sizzlers" aria-pressed="false">
+        Sizzlers
+      </button>
+
+      <button type="button" class="restaurant-menu-tab"
+              data-menu="sides" aria-pressed="false">
+        Sides
+      </button>
+
+      <button type="button" class="restaurant-menu-tab"
+              data-menu="drinks" aria-pressed="false">
+        Drinks
+      </button>
+
+      <button type="button" class="restaurant-menu-tab"
+              data-menu="desserts" aria-pressed="false">
+        Desserts
+      </button>
+    </div>
+
+    <!-- APPETISERS -->
+    <div class="restaurant-menu-panel active"
+         id="menu-appetisers">
+
+      <h3>Appetisers</h3>
+
+      <div class="restaurant-menu-item">
+        <span>Keema Nachos</span><strong>£6.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Peri Peri Wings (6)</span><strong>£5.99</strong>
+      </div>
+       <div class="restaurant-menu-item">
+        <span>BBQ Ribs (6)</span><strong>£5.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Lamb Chops (4)</span><strong>£8.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Garlic Bread (3)</span><strong>£3.99</strong>
+      </div>
+    </div>
+
+    <!-- STEAKS -->
+    <div class="restaurant-menu-panel" id="menu-steaks" hidden>
+      <h3>Steaks</h3>
+      <p class="restaurant-menu-note">
+        All steaks are served with a choice of gravy or peppercorn sauce, vegetables and any 3 sides.
+      </p>
+
+      <div class="restaurant-menu-item">
+        <span>Chicken Steak</span><strong>£17.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Lamb Steak</span><strong>£19.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>T-Bone Steak</span><strong>£21.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Sirloin Steak</span><strong>£23.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Ribeye Steak</span><strong>£26.99</strong>
+      </div>
+
+<div class="restaurant-steak-guide">
+    <h4>How Would You Like Your Steak Cooked?</h4>
+
+    <p>
+        Explore the different steak cooking levels,
+        from Rare to Well Done.
+    </p>
+
+    <img
+        src="steak cooking guide.jpg.jpg"
+        alt="Sizzle and Sear steak cooking guide showing Rare,
+             Medium-Rare, Medium, Medium-Well and Well Done"
+        class="restaurant-steak-guide-image"
+        loading="lazy"
+    >
+</div>
+
+
+    </div>
+
+    <!-- SIZZLERS -->
+    <div class="restaurant-menu-panel" id="menu-sizzlers" hidden>
+      <h3>Sizzlers</h3>
+      <p class="restaurant-menu-note">
+        All sizzlers are served with a choice of gravy or peppercorn sauce, vegetables and any 3 sides.
+      </p>
+
+      <div class="restaurant-menu-item">
+        <span>Peri Peri Chicken</span><strong>£17.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Chicken Tikka</span><strong>£17.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Stir Fry Beef</span><strong>£19.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Manchurian Chicken</span><strong>£18.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Szechuan Chicken</span><strong>£18.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Chef's Special Chicken</span><strong>£19.99</strong>
+      </div>
+    </div>
+
+    <!-- SIDES -->
+    <div class="restaurant-menu-panel" id="menu-sides" hidden>
+      <h3>Sides</h3>
+      <p class="restaurant-menu-note">
+        Choose any 3 sides with your steak or sizzler.
+      </p>
+
+      <div class="restaurant-menu-item"><span>Skin on Fries</span></div>
+      <div class="restaurant-menu-item"><span>Steak Chips</span></div>
+      <div class="restaurant-menu-item"><span>Creamy Mash</span></div>
+      <div class="restaurant-menu-item"><span>Spicy Rice</span></div>
+      <div class="restaurant-menu-item"><span>Tomato Pasta</span></div>
+      <div class="restaurant-menu-item"><span>Stir Fry Noodles</span></div>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="restaurant-menu-panel" id="menu-drinks" hidden>
+      <h3>Drinks</h3>
+      <p class="restaurant-menu-note">Served in 375ml bottles.</p>
+
+      <div class="restaurant-menu-item">
+        <span>Irn Bru</span><strong>£5.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Pepsi (Regular and Diet)</span><strong>£5.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Sprite</span><strong>£5.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Tango</span><strong>£5.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>J2O</span><strong>£4.99</strong>
+      </div>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="restaurant-menu-panel" id="menu-desserts" hidden>
+      <h3>Desserts</h3>
+      <p class="restaurant-menu-note">
+        Finish your meal with something sweet.
+      </p>
+
+      <div class="restaurant-menu-item">
+        <span>Chocolate Fudge Cake</span><strong>£6.49</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Lotus Biscoff Cheesecake</span><strong>£6.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Sticky Toffee Pudding</span><strong>£6.49</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Warm Chocolate Brownie</span><strong>£6.99</strong>
+      </div>
+      <div class="restaurant-menu-item">
+        <span>Vanilla Ice Cream</span><strong>£4.49</strong>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+<!-- SIZZLE & SEAR OPENING HOURS -->
+<section class="ss-hours-section" id="opening-hours">
+
+    <div class="ss-hours-container">
+
+        <div class="ss-hours-header">
+            <span class="ss-hours-label"></span>
+
+            <h2>Opening Hours</h2>
+
+            <p>
+                Join us for freshly prepared steaks,
+                sizzling dishes and unforgettable flavours.
+            </p>
+        </div>
+
+        <div class="ss-hours-card">
+
+            <div class="ss-hours-card-heading">
+                <span class="ss-hours-clock">◷</span>
+                <h3>When We're Open</h3>
+            </div>
+
+            <div class="ss-hours-row">
+                <span>Monday – Thursday</span>
+                <strong>12:00 PM – 10:00 PM</strong>
+            </div>
+
+            <div class="ss-hours-row">
+                <span>Friday</span>
+                <strong>12:00 PM – 11:00 PM</strong>
+            </div>
+
+            <div class="ss-hours-row ss-hours-weekend">
+                <span>Saturday</span>
+                <strong>12:00 PM – 11:00 PM</strong>
+            </div>
+
+            <div class="ss-hours-row ss-hours-weekend">
+                <span>Sunday</span>
+                <strong>12:00 PM – 9:00 PM</strong>
+            </div>
+
+            <div class="ss-hours-offer">
+                <span>🔥</span>
+                <p>
+                    <strong>Weekend Special:</strong>
+                    Enjoy 20% off steaks and sizzlers
+                    every Saturday and Sunday!
+                </p>
+            </div>
+
+    
+          
+  
+
+       </div>
+        
+
+    </div>
+
+</section>
+
+
+
+
+    <!-- BOOKING FORM -->
+    <section id="reservation" class="restaurant-section">
+      <div class="restaurant-container restaurant-form-container">
+
+        <div class="restaurant-section-heading">
+          <span class="restaurant-eyebrow">PLAN YOUR VISIT</span>
+          <h2>Book a Reservation</h2>
+          <p>
+            Complete the form below to prepare your
+            reservation request.
+          </p>
+        </div>
+
+        <form id="restaurant-booking-form" class="restaurant-form">
+
+          <div class="restaurant-form-grid">
+
+            <div class="restaurant-field">
+              <label for="booking-name">Full Name *</label>
+              <input
+                type="text"
+                id="booking-name"
+                name="name"
+                autocomplete="name"
+                placeholder="Enter your full name"
+                maxlength="100"
+                required
+              >
+            </div>
+
+            <div class="restaurant-field">
+              <label for="booking-email">Email Address *</label>
+              <input
+                type="email"
+                id="booking-email"
+                name="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                maxlength="150"
+                required
+              >
+            </div>
+
+            <div class="restaurant-field">
+              <label for="booking-phone">Phone Number *</label>
+              <input
+                type="tel"
+                id="booking-phone"
+                name="phone"
+                autocomplete="tel"
+                placeholder="Enter your phone number"
+                maxlength="30"
+                required
+              >
+            </div>
+
+            <div class="restaurant-field">
+              <label for="booking-guests">Number of Guests *</label>
+              <select id="booking-guests" name="guests" required>
+                <option value="">Select guests</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7">7 Guests</option>
+                <option value="8">8 Guests</option>
+                <option value="9">9 Guests</option>
+                <option value="10">10 Guests</option>
+                <option value="11">11 Guests</option>
+                <option value="12">12 Guests</option>
+              </select>
+            </div>
+
+            <div class="restaurant-field">
+              <label for="booking-date">Reservation Date *</label>
+              <input
+                type="date"
+                id="booking-date"
+                name="date"
+                required
+              >
+            </div>
+
+            <div class="restaurant-field">
+              <label for="booking-time">Preferred Time *</label>
+              <select id="booking-time" name="time" required>
+                <option value="">Select a time</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="13:00">1:00 PM</option>
+                <option value="14:00">2:00 PM</option>
+                <option value="17:00">5:00 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="21:00">9:00 PM</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="restaurant-field">
+            <label for="booking-notes">Special Requests (Optional)</label>
+            <textarea
+              id="booking-notes"
+              name="notes"
+              rows="4"
+              maxlength="500"
+              placeholder="Accessibility requirements or special requests"
+            ></textarea>
+          </div>
+
+          <label class="restaurant-consent">
+            <input type="checkbox" id="booking-consent" required>
+            <span>
+              I understand that my details will be used to
+              prepare an email reservation request, and that
+              this demonstration website does not confirm bookings.
+            </span>
+          </label>
+
+          <button type="submit" class="restaurant-submit-btn">
+            Request Reservation
+          </button>
+
+          <p class="restaurant-form-disclaimer">
+            This is a university demonstration. Submitting the form
+            prepares an email draft; it does not automatically send
+            an email or confirm a reservation.
+          </p>
+
+          <p id="booking-message" class="restaurant-form-message"
+             role="status" aria-live="polite"></p>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- CUSTOMER FEEDBACK -->
+    <section id="feedback" class="restaurant-section restaurant-feedback-section">
+      <div class="restaurant-container restaurant-form-container">
+
+        <div class="restaurant-section-heading">
+          <span class="restaurant-eyebrow">WE VALUE YOUR OPINION</span>
+          <h2>Customer Feedback</h2>
+          <p>
+            Share your experience or suggestions to help
+            Sizzle &amp; Sear improve its service.
+          </p>
+        </div>
+
+        <form id="restaurant-feedback-form" class="restaurant-form">
+
+          <div class="restaurant-field">
+            <label for="feedback-name">Your Name *</label>
+            <input
+              type="text"
+              id="feedback-name"
+              maxlength="100"
+              placeholder="Enter your name"
+              required
+            >
+          </div>
+
+          <div class="restaurant-field">
+            <label for="feedback-email">Email Address (Optional)</label>
+            <input
+              type="email"
+              id="feedback-email"
+              maxlength="150"
+              placeholder="you@example.com"
+            >
+          </div>
+
+          <div class="restaurant-field">
+            <label for="feedback-rating">Your Experience *</label>
+            <select id="feedback-rating" required>
+              <option value="">Choose a rating</option>
+              <option value="Excellent">Excellent</option>
+              <option value="Good">Good</option>
+              <option value="Average">Average</option>
+              <option value="Poor">Poor</option>
+            </select>
+          </div>
+
+          <div class="restaurant-field">
+            <label for="feedback-comments">Your Feedback *</label>
+            <textarea
+              id="feedback-comments"
+              rows="5"
+              maxlength="1000"
+              placeholder="Tell us about your experience..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="restaurant-submit-btn">
+            Prepare Feedback Email
+          </button>
+
+          <p id="feedback-message" class="restaurant-form-message"
+             role="status" aria-live="polite"></p>
+
+        </form>
+      </div>
+      
+    </section>
+
+    <!-- CONTACT AND SOCIAL MEDIA -->
+    <section id="restaurant-contact" class="restaurant-section">
+      <div class="restaurant-container">
+
+        <div class="restaurant-section-heading">
+          <span class="restaurant-eyebrow">GET IN TOUCH</span>
+          <h2>Contact &amp; Social Media</h2>
+        </div>
+
+        <div class="restaurant-contact-grid">
+
+          <div class="restaurant-contact-card">
+            <h3>Contact Details</h3>
+
+            <p>
+              <strong>Restaurant:</strong><br>
+              Sizzle &amp; Sear
+            </p>
+
+            <p>
+              <strong>Email:</strong><br>
+              info@sizzleandsear-mcr.co.uk
+            </p>
+
+            <p>
+              <strong>Location:</strong><br>
+              148 Wilmslow Road, Manchester M14 5AW 
+            
+          </div>
+
+          <div class="restaurant-contact-card">
+            <h3>Social Media</h3>
+
+            <p>
+              Follow restaurant updates and discover
+              new menu ideas through social media.
+            </p>
+
+           <div class="restaurant-social-accounts">
+
+    <div class="restaurant-social-account">
+        <a href="https://www.facebook.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Facebook
+        </a>
+        <span>Sizzle & Sear MCR</span>
+    </div>
+
+    <div class="restaurant-social-account">
+        <a href="https://www.instagram.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Instagram
+        </a>
+        <span>@sizzleandsear.mcr</span>
+    </div>
+
+    <div class="restaurant-social-account">
+        <a href="https://x.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            X / Twitter
+        </a>
+        <span>@sizzleandsear.mcr</span>
+    </div>
+
+</div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY AND DATA PROTECTION -->
+    <section id="privacy" class="restaurant-section restaurant-privacy-section">
+      <div class="restaurant-container">
+
+        <div class="restaurant-section-heading">
+          <span class="restaurant-eyebrow">YOUR INFORMATION</span>
+          <h2>Privacy &amp; Data Protection</h2>
+        </div>
+
+        <div class="restaurant-privacy-content">
+          <h3>Privacy Notice</h3>
+
+          <p>
+            Sizzle &amp; Sear is a fictional restaurant created
+            for a university digital transformation case study.
+            This demonstration website does not use a database
+            to store reservation or feedback form submissions.
+          </p>
+
+          <p>
+            Information entered into the forms is used locally
+            in your browser to prepare an email draft. The
+            email is not sent automatically. You can review
+            or cancel the message in your email application.
+          </p>
+
+          <h3>GDPR Considerations</h3>
+
+          <p>
+            The proposed solution considers data minimisation,
+            transparency and user control. Customers should
+            only be asked for information relevant to their
+            reservation or feedback request.
+          </p>
+
+          <h3>Cookie Consent</h3>
+
+          <p>
+            This demonstration does not introduce advertising
+            or analytics tracking cookies. A cookie information
+            reminder is provided to explain how the page works.
+          </p>
+
+          <button
+            type="button"
+            id="restaurant-cookie-info-btn"
+            class="restaurant-secondary-btn">
+            View Cookie Information
+          </button>
+
+          <p id="restaurant-cookie-info"
+             class="restaurant-cookie-info"
+             hidden>
+            This page does not set tracking cookies. Form details
+            are not saved by this page. The separate portfolio
+            cookie preference feature may remember a choice
+            using your browser's local storage.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="restaurant-footer">
+    <div class="restaurant-footer-inner">
+      <div>
+        <strong>Muhammed Husnain</strong>
+        <p>BSc (Hons) Business Information Technology</p>
+        <p>University of Salford</p>
+      </div>
+
+      <p>© 2026 Muhammed Husnain</p>
+    </div>
+  </footer>
+
+
+</body>
 </html>
+
