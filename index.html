@@ -4,98 +4,531 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
 
-    <style>
-        /* Main page design */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: linear-gradient(135deg, #141e30, #243b55);
-            color: white;
-            text-align: center;
-            min-height: 100vh;
-        }
+    <title>Muhammed Husnain | Portfolio</title>
 
-        /* Welcome heading */
-        h1 {
-            font-size: 42px;
-            margin-top: 0;
-            padding-top: 100px;
-            color: #00d4ff;
-            letter-spacing: 2px;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        /* Introduction text */
-        p {
-            font-size: 18px;
-            color: #dbeafe;
-            margin-bottom: 40px;
-        }
-
-        /* Navigation menu */
-        nav {
-            margin-top: 30px;
-        }
-
-        nav a {
-            display: inline-block;
-            text-decoration: none;
-            color: white;
-            background-color: #0077b6;
-            padding: 14px 24px;
-            margin: 8px;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        /* Hover effect */
-        nav a:hover {
-            background-color: #00d4ff;
-            color: #141e30;
-            transform: translateY(-4px);
-        }
-
-        /* Content panel */
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 30px 20px;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 80px;
-            padding: 20px;
-            color: #b0c4de;
-            font-size: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Welcome to My Website</h1>
+     <!-- Cookie Consent Popup -->
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <div class="cookie-content">
+        <div>
+            <h2>Cookies on this website</h2>
+            <p>
+                This website uses cookies to improve your browsing experience
+                and remember your cookie preferences.
+            </p>
+        </div>
 
-        <p>Explore my skills, projects and problem-solving journey.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="cookie-btn accept-btn">
+                Accept
+            </button>
 
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="contacts.html">Contacts</a>
-            <a href="skills.html">Skills</a>
-            <a href="problem-solving.html">Problem-Solving</a>
-            <a href="showcase.html">Showcase</a>
-        </nav>
+            <button id="decline-cookies" class="cookie-btn decline-btn">
+                Decline
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- NAVIGATION BAR -->
+
+<header class="site-header" id="home">
+
+    <nav class="navbar">
+
+        <a class="brand" href="index.html">
+            <span class="mh-logo">MH</span>
+            <span>Muhammed Husnain</span>
+        </a>
+
+        <ul class="nav-links">
+
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+
+            <li>
+                <a href="skills.html">Skills</a>
+            </li>
+
+            <li>
+                <a href="business-showcase.html">Business Showcase</a>
+            </li>
+
+            <li>
+                <a href="problem-solving.html">Problem-Solving</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+    <!-- HOME / HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content reveal hero-intro-animated"></div>
+
+<!-- Welcome Robot -->
+<div class="welcome-robot">
+
+    <div class="speech-bubble">
+        Welcome to my website!
+        
     </div>
 
-    <footer>
-        <p>Thank you for visiting my website!</p>
-    </footer>
+    <div class="robot">
+        <!-- Robot antenna -->
+        <div class="antenna">
+            <span></span>
+        </div>
+
+        <!-- Robot head -->
+        <div class="robot-head">
+            <div class="robot-eyes">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="robot-mouth"></div>
+        </div>
+
+        <!-- Robot body -->
+        <div class="robot-body">
+            <div class="robot-light"></div>
+        </div>
+
+        <!-- Robot arms -->
+        <div class="robot-arm left-arm"></div>
+        <div class="robot-arm right-arm"></div>
+
+        <!-- Robot legs -->
+        <div class="robot-leg left-leg"></div>
+        <div class="robot-leg right-leg"></div>
+    </div>
+
+</div>
+            <h1>Muhammed <span>Husnain</span></h1>
+
+            <h2>BSc (Hons) Business Information Technology</h2>
+
+            <p class="university">
+                Student at the University of Salford
+            </p>
+
+            <p class="intro">
+                I am a second-year BSc (Hons) Business Information
+                Technology student at the University of Salford
+                with a strong interest in both business and IT.
+                I am passionate about learning new skills and
+                exploring how technology can support and
+                improve businesses.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#about" class="btn btn-primary">
+                    Learn More About Me →
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT ME SECTION -->
+
+    <section class="about section" id="about">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p>
+                    My name is <strong>Muhammed Husnain</strong>,
+                    and I am a second-year
+                    <strong>BSc (Hons) Business Information Technology</strong>
+                    student at the
+                    <strong>University of Salford</strong>.
+                </p>
+
+                <p>
+                    I am an excellent team worker and enjoy working
+                    collaboratively. I have over
+                    <strong>one year of work experience</strong>
+                    in warehouse and dessert shop environments,
+                    where I have developed strong communication,
+                    time-management, responsibility and
+                    problem-solving skills.
+                </p>
+
+                <p>
+                    I have a strong interest in both
+                    <strong>Business and IT</strong>
+                    and I am always looking for opportunities
+                    to learn new areas within these fields.
+                </p>
+
+                <p>
+                    My future goal is to build a successful career
+                    in the Business Information Technology field,
+                    combining my understanding of business with
+                    my growing IT knowledge to contribute to
+                    innovative and effective solutions.
+                </p>
+
+            </div>
+
+
+            <div class="info-list reveal">
+
+                <div class="info-item">
+
+                    <div class="info-icon">🎓</div>
+
+                    <div>
+                        <h3>Education</h3>
+                        <p>
+                            Second Year BSc (Hons) Business
+                            Information Technology —
+                            University of Salford
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <div class="info-icon">👥</div>
+
+                    <div>
+                        <h3>Work Experience</h3>
+                        <p>
+                            1+ year of experience in warehouse
+                            and dessert shop environments
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <div class="info-icon">💻</div>
+
+                    <div>
+                        <h3>Interests</h3>
+                        <p>
+                            Business, Information Technology
+                            and learning new digital skills
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <div class="info-icon">🚀</div>
+
+                    <div>
+                        <h3>Future Goal</h3>
+                        <p>
+                            Build a successful career in
+                            Business Information Technology
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills section" id="skills">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">WHAT I BRING</p>
+
+            <h2>Key Skills & Interests</h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card reveal">
+
+                <div class="card-icon">📊</div>
+
+                <h3>Business Intelligence</h3>
+
+    <p>
+        Passionate about Business Intelligence and exploring
+        how data can be transformed into valuable insights.
+        Interested in data visualisation and using technology
+        to support informed business decisions
+        and improve organisational performance.
+    </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="card-icon">💻</div>
+
+                <h3>Business & IT</h3>
+
+                <p>
+                    Strong interest in business, information
+                    technology and the connection between
+                    the two fields.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="card-icon">💡</div>
+
+                <h3>Continuous Learning</h3>
+
+                <p>
+                    Motivated to learn new technologies,
+                    develop new skills and explore different
+                    areas of Business IT.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+<!-- INTERACTIVE CAREER GOALS -->
+<section class="career-goals-section" id="career-goals">
+
+    <div class="career-goals-header">
+        <span class="career-goals-label">MY FUTURE</span>
+        <h2>My Career Goals</h2>
+        <p>
+            My ambition is to build a successful career where
+            business and technology come together to solve
+            real-world problems.
+        </p>
+        <p class="career-goals-hint">
+            Click a goal to explore my career roadmap.
+        </p>
+    </div>
+
+    <div class="career-roadmap">
+
+        <div class="career-roadmap-line">
+            <div class="career-roadmap-progress"></div>
+        </div>
+
+        <!-- GOAL 1 -->
+        <div class="career-goal-item">
+            <button class="career-goal-card career-goal-active"
+                    type="button"
+                    aria-expanded="true">
+
+                <span class="career-goal-number">01</span>
+
+                <span class="career-goal-card-title">
+                    Develop My Technical Skills
+                </span>
+
+                <span class="career-goal-toggle">−</span>
+            </button>
+
+            <div class="career-goal-details">
+                <p>
+                    Continue improving my knowledge of information
+                    technology, data analysis and digital systems
+                    through my university studies and practical projects.
+                </p>
+
+                <div class="career-goal-tags">
+                    <span>IT Skills</span>
+                    <span>Data Analysis</span>
+                    <span>Digital Systems</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- GOAL 2 -->
+        <div class="career-goal-item">
+            <button class="career-goal-card"
+                    type="button"
+                    aria-expanded="false">
+
+                <span class="career-goal-number">02</span>
+
+                <span class="career-goal-card-title">
+                    Gain Industry Experience
+                </span>
+
+                <span class="career-goal-toggle">+</span>
+            </button>
+
+            <div class="career-goal-details" hidden>
+                <p>
+                    Secure internships and graduate opportunities
+                    that allow me to apply my skills in a professional
+                    business and technology environment.
+                </p>
+
+                <div class="career-goal-tags">
+                    <span>Internships</span>
+                    <span>Professional Experience</span>
+                    <span>Teamwork</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- GOAL 3 -->
+        <div class="career-goal-item">
+            <button class="career-goal-card"
+                    type="button"
+                    aria-expanded="false">
+
+                <span class="career-goal-number">03</span>
+
+                <span class="career-goal-card-title">
+                    Build a Career in Business &amp; IT
+                </span>
+
+                <span class="career-goal-toggle">+</span>
+            </button>
+
+            <div class="career-goal-details" hidden>
+                <p>
+                    Work towards a career in business analysis,
+                    technology consulting or digital transformation,
+                    helping organisations improve their processes
+                    through innovative technology.
+                </p>
+
+                <div class="career-goal-tags">
+                    <span>Business Analysis</span>
+                    <span>Technology Consulting</span>
+                    <span>Digital Transformation</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact section" id="contact">
+
+        <div class="contact-box reveal">
+
+            <p class="section-label">LET'S CONNECT</p>
+
+            <h2>Interested in working together?</h2>
+
+            <p>
+                I am always interested in learning, meeting
+                new people and exploring opportunities within
+                Business Information Technology.
+            </p>
+
+            <a href="contacts.html" class="btn btn-primary">Get in Touch</a>
+
+        </div>
+
+    </section>
+
+    
+
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div>
+
+        <h3>Muhammed Husnain</h3>
+
+        <p>
+            BSc (Hons) Business Information Technology |
+            University of Salford
+        </p>
+
+    </div>
+
+    <p class="copyright">
+        &copy; <span id="year"></span>
+        Muhammed Husnain. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
+
 
